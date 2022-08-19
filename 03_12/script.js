@@ -7,10 +7,10 @@
  * - Test the objecs by calling their properties and using their methods in the console.
  */
 
-// import CoffeeMug from "./CoffeeMug";
-import Backpack from "./Backpack";
+import CoffeeMug from "./CoffeeMug.js";
+import Backpack from "./Backpack.js";
 
-// const myCoffeeMug = new CoffeeMug("black", 3, 16, false);
+const myCoffeeMug = new CoffeeMug("black", 3, 16, false, "medium", "folgers");
 const everydayPack = new Backpack(
   "Everyday Backpack",
   30,
@@ -21,5 +21,8 @@ const everydayPack = new Backpack(
   false
 );
 
-console.log(everydayPack);
-// console.log(myCoffeeMug);
+myCoffeeMug.fillMug("medium", "folgers")
+myCoffeeMug.emptyMug()
+
+console.log(myCoffeeMug)
+

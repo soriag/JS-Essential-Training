@@ -5,7 +5,7 @@
  * Class expression:  const Name = class {}
  */
 
-class Backpack {
+ class Backpack {
   constructor(
     // Defines parameters:
     name,
